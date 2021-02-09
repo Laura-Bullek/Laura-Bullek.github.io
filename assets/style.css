@@ -1,0 +1,107 @@
+body {
+    background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+.bio-picture {
+    display: block;
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding: 20px;
+}
+.container {
+    border: solid black 1px;
+    background-color: #f7f2f2;
+    padding: 0 auto;
+}
+h1 {
+    columns: #333333;
+    text-align: center;
+}
+.col {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+    margin-left: 50px;
+}
+button {
+    padding: 20px;
+    margin: 20px;
+
+}
+form {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.col img {
+    width: 350px;
+    height: 350px;
+}
+.social-media img {
+    width: 50px;
+    margin: 5px;
+    border: rgb(152, 155, 158) 3px solid;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(152, 155, 158);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #socialMedia {
+    padding: 20px   ;
+  }
+
+  .ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 4.5em;
+    color: #402d2d;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #402d2d;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .ampersand {
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
