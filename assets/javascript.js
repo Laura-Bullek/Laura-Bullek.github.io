@@ -1,3 +1,5 @@
+
+// Name animation code from https://tobiasahlin.com
 anime.timeline({loop: true})
   .add({
     targets: '.ml5 .line',
@@ -38,3 +40,4 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+  // End of name animation code
