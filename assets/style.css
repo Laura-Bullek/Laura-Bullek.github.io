@@ -65,7 +65,7 @@ footer {
   }
 
   /* Name animation from https://tobiasahlin.com-->*/
-  .ml5 {
+  .headingAnimation {
     position: relative;
     font-weight: 300;
     font-size: 4.5em;
@@ -73,7 +73,7 @@ footer {
     margin-top: 5px;
   }
   
-  .ml5 .text-wrapper {
+  .headingAnimation .text-wrapper {
     position: relative;
     display: inline-block;
     padding-top: 0.1em;
@@ -82,7 +82,7 @@ footer {
     line-height: 1em;
   }
   
-  .ml5 .line {
+  .headingAnimation .line {
     position: absolute;
     left: 0;
     top: 0;
@@ -94,7 +94,7 @@ footer {
     transform-origin: 0.5 0;
   }
   
-  .ml5 .ampersand {
+  .headingAnimation .ampersand {
     font-family: Baskerville, serif;
     font-style: italic;
     font-weight: 400;
@@ -103,7 +103,7 @@ footer {
     margin-left: -0.1em;
   }
   
-  .ml5 .letters {
+  .headingAnimation .letters {
     display: inline-block;
     opacity: 0;
   }

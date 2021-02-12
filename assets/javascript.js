@@ -2,32 +2,32 @@
 // Name animation code from https://tobiasahlin.com
 anime.timeline({loop: true})
   .add({
-    targets: '.ml5 .line',
+    targets: '.headingAnimation .line',
     opacity: [0.5,1],
     scaleX: [0, 1],
     easing: "easeInOutExpo",
     duration: 1000
   }).add({
-    targets: '.ml5 .line',
+    targets: '.headingAnimation .line',
     duration: 1100,
     easing: "easeOutExpo",
     translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
   }).add({
-    targets: '.ml5 .letters-left',
+    targets: '.headingAnimation .letters-left',
     opacity: [0,1],
     translateX: ["0.5em", 0],
     easing: "easeOutExpo",
     duration: 600,
     offset: '-=300'
   }).add({
-    targets: '.ml5 .letters-right',
+    targets: '.headingAnimation .letters-right',
     opacity: [0,1],
     translateX: ["-0.5em", 0],
     easing: "easeOutExpo",
     duration: 600,
     offset: '-=600'
   }).add({
-    targets: '.ml5',
+    targets: '.headingAnimation',
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
