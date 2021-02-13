@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Metadata-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-
-        <!-- Links to Bootstrap and CSS page -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link type="text/css" rel="stylesheet" href="assets/style.css">
+        <!-- Metadata-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Laura Bullek</title>
     
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     
        <!-- Compiled and minified CSS -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!-- Links to CSS page -->
+          <link type="text/css" rel="stylesheet" href="assets/style.css">
     
 
   <body>
@@ -40,43 +38,42 @@
     </ul>
   
     <!-- Overall grid container -->
-    <div class="container">
 
-    <!-- Row 1 (Heading)-->
-      <div class="row">
-        <h1>Contact</h1>
-      </div>
-        
-        <!-- Form-->
-        <form>
-          <!-- Form row 1-->  
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputEmail4">Name</label>
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
-            </div>
-            
-            <!-- Form row 2-->  
-            <div class="form-group col-md-6">
-              <label for="inputPassword4">Email</label>
-              <input type="email" class="form-control" id=inputPassword4 placeholder="Email">
-            </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">First Name</label>
           </div>
-
-          <!-- Form row 3-->  
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Write Your Message Here:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What Are Your Thoughts?"></textarea>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">phone</i>
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Telephone</label>
           </div>
-          <br><br>
-          <button type="button" class="btn btn-outline-danger">Out of Order!</button>
-        </form>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">email</i>
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Email</label>
+          </div>
+        </div>
+      </form>
     </div>
+        
+      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+            
 
       <!-- Footer-->
     <footer> 
       <h6>Designed by Laura Bullek | 2020</h6>     
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="assets/javascript.js"></script>
 
   </body>
 

@@ -1,6 +1,6 @@
 body {
-    background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
-    background-color: #cccccc;
+    /*background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");*/
+    /*background-color: #cccccc;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,11 +14,7 @@ body {
     float: left;
     padding: 20px;
 }
-.container {
-    border: solid black 1px;
-    background-color: #f7f2f2;
-    padding: 0 auto;
-}
+
 h1 {
     columns: #333333;
     text-align: center;
@@ -57,11 +53,11 @@ footer {
     background-color: rgb(152, 155, 158);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
 
   #socialMedia {
-    padding: 20px   ;
+    padding: 20px;
   }
 
 .parallax-container {
