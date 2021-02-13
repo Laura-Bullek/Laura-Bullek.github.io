@@ -108,3 +108,7 @@ footer {
     opacity: 0;
   }
 /* End of name animation*/
+
+.paralax {
+  background-image: url("https://cdn.britannica.com/96/101796-050-D0620629/Perch-Pond-Campton-New-Hampshire.jpg");
+}
