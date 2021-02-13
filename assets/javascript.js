@@ -34,9 +34,3 @@ anime.timeline({loop: true})
     delay: 2000
   });
   // End of name animation code
-
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems, options);
-  });
