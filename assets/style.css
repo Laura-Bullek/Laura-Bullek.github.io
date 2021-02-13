@@ -69,3 +69,7 @@ footer {
 #parallax-container-2 {
   height: 150px;
 }
+
+.btn-flat {
+  font-size: 20px;
+}
