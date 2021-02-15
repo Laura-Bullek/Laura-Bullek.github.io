@@ -5,7 +5,10 @@
 This application was created to showcase my personal programming portfolio. It includes my brand statement,
 resume, and favorite portfolio pieces with links to each of their repositories. 
 
-![Project example image](./assets/images/TruffleShuffleExampleImage.png)
+![Main Page](https://i.postimg.cc/7YvZktf2/Git-Hub-io-Index.png)
+![Portfolio Page](https://i.postimg.cc/kX9Ps02f/Git-Hub-io-Portfolio.png)
+![Contact Me Page](https://i.postimg.cc/wB1C3HrT/Git-Hub-io-Contact.png)
+
 
 # Installation
 No installations required for this project, just any browser that can run modern HTML.
