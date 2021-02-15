@@ -53,7 +53,7 @@ footer {
     background-color: rgb(152, 155, 158);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
   }
 
   #socialMedia {
@@ -86,4 +86,10 @@ footer {
   border-radius: 50%;
   height: 60px;
   padding: 5px;
+}
+
+#carousel-tf, 
+#carousel-pg {
+  height:auto;
+  width: 200px;
 }
