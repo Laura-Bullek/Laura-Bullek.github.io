@@ -83,3 +83,9 @@ footer {
   height: 200px;
   width: 50px;
 }
+
+#brand-logo {
+  border-radius: 50%;
+  height: 60px;
+  padding: 5px;
+}
