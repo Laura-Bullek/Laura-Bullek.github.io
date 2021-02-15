@@ -8,15 +8,6 @@ body {
     padding-bottom: 50px;
   }
 
-
-.bio-picture {
-    display: block;
-    height: 250px;
-    width: 250px;
-    float: left;
-    padding: 20px;
-}
-
 h1 {
     columns: #333333;
     text-align: center;
@@ -39,8 +30,15 @@ form {
 }
 
 .col img {
-    width: 350px;
+    width: 500 px;
     height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid black 5px;
+    border-radius: 25px;
+    
 }
 .social-media img {
     width: 50px;
