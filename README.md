@@ -1,8 +1,9 @@
 # Laura-Bullek.github.io
-Personal Website
+
 
 # Description
-
+This application was created to showcase my personal programming portfolio. It includes my brand statement,
+resume, and favorite portfolio pieces with links to each of their repositories. 
 
 ![Project example image](./assets/images/TruffleShuffleExampleImage.png)
 
